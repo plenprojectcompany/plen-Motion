@@ -9,6 +9,7 @@ Motion files (JSON) for PLEN series robots.
 - `/motion-plen1.4`: Default motion files for PLEN1.4 (PLEN.D)
 - `/motion-plen1.4-extra`: Additional motion files for PLEN1.4 (PLEN.D)
 - `/motion-plen2`: Default motion files for PLEN2
+- `/motion-plen2-mini`: Default motion files for PLEN2 mini
 - `sdk`: Development kit for motion files
     - `device_map.json`: The file indicates the relationship between **'device name'** -> **'device address'**.
     - `device_map.rev.json`: The file indicates the relationship between **'device address'** -> **'device name'**.
@@ -47,8 +48,11 @@ If not (using **B**), any latest version is OK.
 
 **Attention!**: This script overwrites given files.
 
-## Copyright (c) 2017,
+## Copyright (c) 2017 - 2018,
 - [PLEN Project Company Inc.](https://plen.jp)
+- Naohiro HAYAISHI
+- Natsuo AKAZAWA
+- Sho SUZUKI
 
 ## Build Environment
 ### OS

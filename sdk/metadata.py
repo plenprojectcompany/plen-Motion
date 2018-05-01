@@ -61,7 +61,7 @@ if __name__ == '__main__':
         '-t', '--target',
         dest     = 'target',
         default  = 'PLEN2',
-        choices  = ('PLEN1.4', 'PLEN2'),
+        choices  = ('PLEN1.4', 'PLEN2', 'PLEN2 mini'),
         help     = 'Please set target robot.'
     )
 
