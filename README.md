@@ -23,8 +23,10 @@ Motion files (JSON) for PLEN series robots.
 There are some types of **PLEN2**, thus motion files should be choosed considering your PLEN2.
 Just for reference, you could check the version of your PLEN2 seeing a servo motor.
 
-If you are using the servo motor **A**, recommended version is [plen2-old](https://github.com/plenprojectcompany/plen-Motion/tree/plen2-old).
-If not (using **B**), any latest version is OK.
+If you are using the servo motor shown as below, any latest version is OK.
+If not, recommended version is [plen2-old](https://github.com/plenprojectcompany/plen-Motion/tree/plen2-old/motion-plen2).
+
+<img src="./.assets/servo-motor.jpg" alt="Servo Motor" width="266">
 
 ## How to Use the SDK
 ### metadata.py
